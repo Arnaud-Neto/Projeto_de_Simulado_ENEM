@@ -2,25 +2,24 @@
 
 <html>
     <head>
-        <style>
-            *{outline: 1px solid black;}
-            
-            body {width: 100vw;margin: 0px;min-height: 100vh;}
-            #main_enunciado{position:relative;left:0px;top:0px;width: 100vw;height: auto;min-height: 100vh;background-color: aqua;}
-            #main_alternativas{position: absolute;left: 0px;bottom:0px;height: 50px;width: 100vw;background-color: aquamarine;}
-            #main_side_bar{position: absolute;left: -190px;top:0px;height: 100vh;width: 200px;background-color: rgb(75, 75, 75);}
-            #materia_atual{height: 0px;width: 0px;}
-        </style>
+        <meta lang="pot" charset="UTF-8" />
+        <link href="simulado.css" rel="stylesheet" type="text/css" />
     </head>
     <body>
         <div id="main_enunciado">
-            <div id="materia_atual"></div>
+            <div id="materia_atual"><div id="box_materia_atual"><p style="font-size: 50px;margin: 0px;">Matemática</p></div></div>
+            <div id="box_main_enunciado">
+                <img src="img/grafico_teste.png" class="enunciado" />
+                <p class="enunciado" >Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus fugiat ratione, cum ea rem enim reprehenderit eum. Sequi voluptates quaerat eos aliquam soluta, enim tenetur amet ipsam ipsum, nesciunt nam!</p>
+            </div>
         </div>
         <div id="main_alternativas">
-
+            <div id="box_main_alternativas"></div>
         </div>
         <div id="main_side_bar">
 
         </div>
+        <div id="top_cover"></div>
+        <div id="center_messagebox"></div>
     </body>
 </html>
